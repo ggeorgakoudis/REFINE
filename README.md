@@ -1,5 +1,8 @@
 # REFINE: Realistic Fault Injection via Compiler-based Instrumentation
 
+:zap: 
+***REFINE has been superseeded by [SAFIRE](https://github.com/LLNL/SAFIRE), please redirect to https://github.com/LLNL/SAFIRE***
+
 ## Repo directory structure
 
 injectlib: the fault injection library code implementing the single fault, random bit-flip fault model
@@ -154,3 +157,6 @@ The PINFI tool produces a log of fault injection in the file `pin.injection.txt`
 2. `reg`, the symbolic register name the fault was injected to
 3. `biflip`, the position of the bit that was flipped
 4. `addr`, the instruction pointer address
+
+### Citing REFINE
+* Giorgis Georgakoudis, Ignacio Laguna, Dimitrios S. Nikolopoulos, and Martin Schulz. 2017. [REFINE: realistic fault injection via compiler-based instrumentation for accuracy, portability and speed.](https://dl.acm.org/citation.cfm?id=3126972) In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '17). ACM, New York, NY, USA, Article 29, 14 pages. DOI: https://doi.org/10.1145/3126908.3126972
